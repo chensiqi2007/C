@@ -25,7 +25,7 @@
 
 實例：
 	#include <stdio.h>
-	 int main() { 
+	int main() { 
 	 int a = 21; 
 	 int b = 10; 
 	 int c ; 
@@ -43,9 +43,12 @@
 	 printf("Line 6 - c 的值是 %d\n", c ); c = a--; 
 	 // 赋值后再减 1 ，c 为 22 ，a 为 21 
 	 printf("Line 7 - c 的值是 %d\n", c );
+	 return 0;
+	 }
 
 結果：
-//《img》
+<img width="328" height="462" alt="屏幕截图 2025-11-09 214721" src="https://github.com/user-attachments/assets/3b2b8303-0e26-4510-840f-5754f24128b4" />
+
 
 <h4>a++與++a的區別</h4>
 實例：
@@ -71,10 +74,13 @@
 	   c = --a; 
 	   printf("Line 7 - c 的值是 %d\n", c );
 	   printf("Line 8 - a 的值是 %d\n", a );
+	   return 0;
 	}
 
 結果：
-//《img》
+<img width="403" height="556" alt="屏幕截图 2025-11-09 214824" src="https://github.com/user-attachments/assets/b8d3dfc4-86b3-4d4b-87d4-f60f8b82df49" />
+
+
 ### 關係運算符
 | 運算符 | 描述 |
 | :——: | :——: |
